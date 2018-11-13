@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+        <title>Smile</title> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <script src="scripts/jquery.min.js"></script>
+        <script type="text/javascript" src="scripts/smiles.js"></script>
+    
+        <script type="text/javascript">
+    // This is a jQuery convention to say that once all the files
+    // load, the function Smile.start() should run.
+    $(function() {
+        Smile.start();
+    });
+</script>
+
+
+</head>
+<body>
+    <!--Below is the code for the Header of the page, containging the Smile:)logo, as well as the "share a smile" button-->
+        <header>
+                <!-- below is the inserted logo -->
+            <div class="create">
+                <div class="my-button"> 
+            <img src="images/newLogo.png" class= "smileLogo">    
+                  </div>
+        <form method="get" class="fClass" >
+		    <input type="text" placeholder="Title" class="title-input" name="title" />
+            <textarea placeholder="Share A Smile..." class="story-input" name="story"></textarea> 
+           <select class="happiness-level-input" name="hapiness-level" >
+            <option value="0">Happy-Scale:</option>
+            <option value="3">Happy</option>
+            <option value="2">Really Happy</option>
+            <option value="1">Holy Guac I Was So Cheeky</option>    
+           </select>
+           <div class="return">CANCEL
+           </div>
+           <input type="submit" class="submit-input" value="Post">
+
+	   </form>
+                <br>
+            
+            </div>
+    </header>
+    
+    
+        <section class="mainbody smiles">
+                
+             <article class="smile">
+                    <div class="myTitle"> Lebron Jackson does the Dam Slunk</div>
+                    <div class="happiness"></div>
+                    <div class="story-col">
+                    <div class="story"> It was the most slectacular spam dunk any chipmunk had ever done saw thths htihihsdf khsdf. kjha kjha kjhasdkjhant. hdkt hkskskah tht f dhd tjaka tha ahfkth fj. haka sdkj htk  ahda ksk ht ah jdkjahdfkjsd thkajdfh adkth a a.
+                    </div>         
+                    <div class="timestamp"> Posted at 1:03pm May 22, 2015 </div> </div>
+                    <div class="Rep">
+                    <div class="Like"> <button class="Heart-butt"> <img src="images/heart.png"></button></div>
+                    <!-- reputation (likes and like count)-->
+                    <div class="count"> 20 </div> 
+                    </div>
+                       
+                </article>
+        
+
+    
+     </section>
+</body>
+</html>

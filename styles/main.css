@@ -1,0 +1,322 @@
+
+body {
+	margin: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    background-color: whitesmoke;
+}
+
+
+/* styling for the logo and the create button */
+header{
+    display: inline-block;
+    text-align: center;
+    font-style: italic;
+    text-decoration-color: floralwhite;
+    background-color: transparent;
+    background-image: url(../images/HeaderIm2.png);
+    position: fixed;
+    width: 100%;
+    background-position:top;
+    padding-bottom: calc(2%);
+    background-size: 600px 250px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.headStyle{
+    display: inline-block;
+    text-align: center;
+    background-image: url(../images/risas.jpg);
+    width: 100%;
+    background-position: left;
+    background-size: 800px;
+    z-index: -1;
+    clip-path: circle(calc(21%) at center);
+    padding-bottom: calc(40%);
+    padding-right: calc(20%);
+    position: absolute;
+}
+.headStyle1{
+    display: inline-grid;
+    text-align: center;
+    background-image: url(../images/smile-close.png);
+    background-position: fixed;
+    width: 100%;
+    background-position: right;
+    background-size: 825px;
+    z-index: -1;
+    clip-path: circle(calc(7%) at calc(22%) calc(27%));
+    padding-bottom: calc(25%);
+    position: absolute;
+    
+}
+.smileLogo{
+    margin-top: calc(2%);
+    display: block;
+    height: 200px;
+    text-align: center;
+}
+.smileLogo2{
+    margin-top: calc(2%);
+    margin-left: calc(36%);
+    margin-right: calc(36%);
+    display: block;
+    height: 200px;
+    width: 350px;
+    text-align: center;
+}
+.create{
+    margin-left: calc(37%);
+    margin-right: calc(36%);
+    background-size: contain;
+    margin-top: 20px;
+    height:203px;
+    font-family: cursive;
+    background-position: center;
+    font-size: 12pt;
+    opacity: 0.87;
+}
+.create:hover{
+    opacity: 1;
+    
+}
+.smile-button{
+    padding-top: calc(4.5%);
+    
+    width: calc(10%);
+}
+
+.my-button:hover{
+    top: 1px;
+    height: 200px;
+}
+.my-button{
+    text-align: bottom;
+     text-emphasis-color: transparent;
+    height: 203px;
+}
+.Heart-butt{
+}
+a:link{
+    text-decoration: none;
+
+}
+.smile{
+    background-image: url(../images/bodyImage5.jpg);
+    background-size:cover;
+    border-radius: 5px;
+    border-top: 2px ridge;
+    border-bottom: 2px ridge;
+    
+    border-color: dimgray;
+    margin-left: calc(2%);
+    margin-right: calc(3%);
+    margin-bottom:  calc(5%);
+    width: calc (50%);
+    display: inline-block;
+    opacity: 0.78;
+    z-index: -1;
+}
+.smile:hover{
+    opacity: 1;
+}
+.article{
+    display: inline-block;
+}
+.mainbody{
+    padding-top: 275px;
+    display: block;
+    font-family: cursive;
+    padding-bottom: calc(2%);
+    
+}
+.mainbody1{
+    padding-top: calc(12%);
+    display: block;
+    font-family: cursive;
+    
+}
+.myTitle{
+    text-align: center;
+    font-size: 13pt;
+    display: block;
+    margin-bottom: calc(1%);
+}
+.story-col
+{
+    clear: left;
+    display: inline-block;
+    width: calc(75%);
+    margin-bottom: calc(1%);
+    padding-left: calc(2%);
+    font-size: 11pt;
+    
+}
+.happiness-level-1{
+        margin-top: calc(-6%);
+        margin-left: calc(1%);
+        background-position: calc(20%) calc(-20%);
+     clip-path: circle(22px at calc(50.5%) calc(48%));
+    
+}
+.happiness-level-2{
+        margin-top: calc(-0.5%);
+    margin-left: calc(1%);
+        padding-bottom: calc(2%);
+     clip-path: circle(27px at calc(52%) calc(15%));
+}
+.happiness-level-3{
+    margin-top: calc(-10%);
+    margin-left: calc(1%);
+    background-position: calc(20%) calc(2%);
+     clip-path: circle(23px at calc(50%) calc(76%));
+    
+    
+}
+.happiness{
+    float: left;
+    display: inline-block;
+    background-image: url(../images/happy-level.png);
+    padding-top: 35px;
+    background-size: 250px;
+    width: 40px;
+    height: 50px;
+    background-position: top at bottom;
+}
+/*contains like button and like count*/
+.Rep{
+    display: inline-block;
+    float: right;
+    text-align: center;
+}
+.timestamp{
+
+    margin-top: calc(1%);
+}
+button{
+    border: none;
+    background: none;
+}
+.title-input{
+    display: block;
+    text-align: center;
+    width: 87.5%
+}
+.story-input{
+    height: 120px;
+    display: block;
+    width: 89.2%
+}
+.hapiness-level-input{
+    margin-top: calc(1%);
+    display: block;
+}
+.submit-input{
+    display: inline-block;
+    float: right;
+    background-color: antiquewhite;
+    margin-right: calc(10%);
+}
+.return{
+    display: inline-block;
+}
+
+form{
+    display: block;
+    margin: auto;
+    width: 100%
+    padding-left: calc(5%);
+}
+/*************************MEDIA SCREEN ADJ.***************************/
+@media screen and (max-width: 670px) {
+   .smiles{
+        column-count: 1;
+        column-width: 200px;
+        column-gap: 2px;
+        -moz-column-count: 1;
+        -moz-column-width: 200px;
+       -moz-column-gap: 2px;
+       
+    }
+     .story-col{
+        width: calc(65%);
+         font-size: 10pt;
+    }
+    .story-input{
+    height: 50px;
+    display: block;
+    width: 89.2%
+}
+    .create{
+    margin-left: calc(30%);
+    }
+
+}
+
+@media screen and (min-width: 699px) {
+   .smiles{
+        column-count: 2;
+        column-width: 100px;
+        column-gap: 2px;
+        column-rule-width: 2px;
+       column-rule-color: green;
+       column-rule-style: dotted;
+       
+        -moz-column-count: 2;
+        -moz-column-width: 100px;
+       -moz-column-gap: 2px;
+       -moz-column-rule-style: dotted;
+       -moz-column-rule-width: 2px;
+       -moz-column-rule-color: green;
+       
+    }
+     .story-col{
+        width: calc(65%);
+         font-size: 10pt;
+    }
+    .story-input{
+    height: 100px;
+    display: block;
+    width: 89.2%
+}
+    .create{
+    margin-left: calc(35%);
+    }
+
+
+}
+@media screen and (min-width: 1100px) {
+   .smiles{
+        column-count: 3;
+        column-width: 200px;
+       column-gap: 2px;
+        column-rule-width: 3px;
+       column-rule-color: azure;
+       column-rule-style: ridge;
+       
+        -moz-column-count: 3;
+        -moz-column-width: 150px;
+       -moz-column-gap: 2px;
+        -moz-column-rule-style: ridge;
+       -moz-column-rule-width: 3px;
+       -moz-column-rule-color: azure;
+       
+    }
+    .story-col{
+        width: calc(65%);
+        font-size: 10pt
+    }
+
+    .story-input{
+    height: 120px;
+    display: block;
+    width: 89.2%
+}
+        .create{
+    margin-left: calc(38%);
+    margin-right: calc(36%);
+            
+    }
+}
+
